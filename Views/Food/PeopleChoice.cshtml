@@ -1,0 +1,39 @@
+﻿@model IEnumerable<online.Models.PlaceAnOrderModel>
+
+@{
+    ViewData["Title"] = "PeopleChoice";
+}
+
+<h2>People's Choice</h2>
+<p>See What People Are Eating</p>
+
+<table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #ccc;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">Customer Name</th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">Restaurant</th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">Food</th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">Instruction</th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 8px;">@Html.DisplayFor(modelItem => item.CustomerName)</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">@Html.DisplayFor(modelItem => item.Restaurant)</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">@Html.DisplayFor(modelItem => item.Food)</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">@Html.DisplayFor(modelItem => item.Instruction)</td>
+                <td style="border: 1px solid #ccc; padding: 8px;width: 200px; text-align:center;">
+                    <a href="@Url.Action("OrderEditFood", new { Restaurant = item.Restaurant })" class="btn btn-warning" style="text-decoration: none; padding: 6px 12px; border: 1px solid #d6d6d6; border-radius: 4px; background-color: #ffae00; color: white;" onclick="showAlert()">Order Now</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    function showAlert() {
+        alert("You can customize this food item according to your taste.");
+    }
+</script>

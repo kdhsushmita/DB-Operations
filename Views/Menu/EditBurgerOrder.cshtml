@@ -1,0 +1,45 @@
+﻿@model online.Models.PlaceAnOrderModel
+
+@{
+    ViewData["Title"] = "PlaceAnOrder";
+}
+
+<br />
+<div class="row" style="display: flex; justify-content: center; align-items: center;">
+    <div class="col-md-4" style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; background-color: #f9f9f9; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <h3 style="text-align: center; margin-top: 0;">Place An Order</h3>
+        <form asp-action="AddtoDatabase">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant" class="control-label"></label>
+                <input asp-for="Restaurant" class="form-control" />
+                <span asp-validation-for="Restaurant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Food" class="control-label"></label>
+                <input asp-for="Food" class="form-control" />
+                <span asp-validation-for="Food" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instruction" class="control-label"></label>
+                <input asp-for="Instruction" class="form-control" />
+                <span asp-validation-for="Instruction" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="Order Now" class="btn btn-primary" style="width: 395px;" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

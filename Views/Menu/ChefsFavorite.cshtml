@@ -1,0 +1,51 @@
+﻿@model IEnumerable<online.Models.MenuItemModel>
+
+@{
+    ViewData["Title"] = "ChefsFavorite";
+}
+
+<h3>Chef's Favorite</h3>
+
+<table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #ccc; margin-bottom: 20px;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">
+                @Html.DisplayNameFor(model => model.Food)
+            </th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">
+                @Html.DisplayNameFor(model => model.Restaurant)
+            </th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">
+                @Html.DisplayNameFor(model => model.Chef)
+            </th>
+            <th style="border: 1px solid #ccc; padding: 8px; background-color: #f2f2f2;">
+                
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 8px;">
+                    @Html.DisplayFor(modelItem => item.Food)
+                </td>
+                <td style="border: 1px solid #ccc; padding: 8px;">
+                    @Html.DisplayFor(modelItem => item.Restaurant)
+                </td>
+                <td style="border: 1px solid #ccc; padding: 8px;">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td style="border: 1px solid #ccc; padding: 8px;">
+                    @Html.DisplayFor(modelItem => item.Chef)
+                </td>
+                <td style="border: 1px solid #ccc; padding: 8px; width: 200px; text-align:center">
+                    <a href="@Url.Action("EditChefFavourite", new { Food = item.Food })" class="btn" style="text-decoration: none; padding: 6px 12px; border: 1px solid #d6d6d6; border-radius: 4px; background-color: #ffae00; color: white;">Order Now</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = entitiyauthentication
+build_property.RootNamespace = entitiyauthentication
+build_property.ProjectDir = G:\4 NCC\.netProject\entitiyauthentication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\4 NCC\.netProject\entitiyauthentication
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/AddtoDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGR0b0RhdGFiYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/OrderEditFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxPcmRlckVkaXRGb29kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/PeopleChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxQZW9wbGVDaG9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/PlaceAnOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxQbGFjZUFuT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Food/ProceedToPay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxQcm9jZWVkVG9QYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/AddtoDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZGR0b0RhdGFiYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/burgerItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxidXJnZXJJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/ChefsFavorite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDaGVmc0Zhdm9yaXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/EditBurgerOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0QnVyZ2VyT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/EditChefFavourite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0Q2hlZkZhdm91cml0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Menu/ProceedToPay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxQcm9jZWVkVG9QYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/4 NCC/.netProject/entitiyauthentication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xy67iprbz7
